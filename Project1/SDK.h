@@ -47,5 +47,6 @@ struct CUserCmd
 #include "NetvarManager.h"
 #include "Interfaces.h"
 #include "IInputSystem.h"
+#include "Strafer.h"
 
 typedef void* (*CreateInterfaceFn) (const char*, int*);
