@@ -1,6 +1,6 @@
 #pragma once
 
-//Global Variables
+//Global Variables to use in Hooks
 class CGlobalVars
 {
 public:
