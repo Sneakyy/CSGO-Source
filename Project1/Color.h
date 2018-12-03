@@ -1,5 +1,6 @@
 #pragma once
 #include <windows.h>
+//Colors
 struct Color
 {
 	int r;
