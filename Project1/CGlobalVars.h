@@ -1,5 +1,6 @@
 #pragma once
 
+//Global Variables
 class CGlobalVars
 {
 public:
