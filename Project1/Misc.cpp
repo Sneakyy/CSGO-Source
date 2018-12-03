@@ -26,7 +26,7 @@ void Misc::CreateMove(CUserCmd *cmd)
 			{
 				static AutoStrafer Strafer;
 				double yawrad = AngleNormalize(cmd->viewangles.yaw) * PI / 180;
-				double tau = g_GlobalVars->interval_per_tick, MA = 320 * 100;
+				double tau = g_GlobalVars->interval_per_tick, MA = 320 * 1000;
 				int Sdir = 0, Fdir = 0;
 				Vector velocity = g_LocalPlayer->m_vecVelocity();
 				double vel[3] = { velocity[0], velocity[1], velocity[2] };
